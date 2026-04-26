@@ -11,6 +11,34 @@ SkillSync AI overcomes this by transforming static resumes into interactive tech
 
 ---
 
+## 🔑 SETUP FOR JUDGES (Zero-Setup Guide)
+
+To run this project immediately, follow these simple steps:
+
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/mokshagnakakumanu/SOUL_AI_Hackathon.git
+    cd SOUL_AI_Hackathon/agent
+    ```
+2.  **Create your Environment File**:
+    Create a file named `.env` in the `agent/` folder:
+    ```bash
+    touch .env
+    ```
+3.  **Add the API Key**:
+    Paste the following line into your `.env` file (Use the API Key provided in the **Submission Form**):
+    ```env
+    GEMINI_API_KEY=PASTE_KEY_HERE
+    ```
+4.  **Install and Run**:
+    ```bash
+    npm install
+    npm run dev
+    ```
+    Visit [http://localhost:3000](http://localhost:3000).
+
+---
+
 ## 🚀 Key Features
 
 - **🔍 Intelligent ATS Pre-Screening**: Semantic analysis of Resume vs. JD to identify hidden gaps.
@@ -35,38 +63,7 @@ graph TD
 ```
 
 ### 🧠 Scoring & Evaluation Logic
-SkillSync uses a **Weighted Hybrid Scoring Model** to ensure technical merit outweighs resume presentation:
-1. **ATS Alignment (10%)**: Initial semantic match between JD and Resume.
-2. **Interview Proficiency (90%)**: The core score. Jarvis evaluates answers based on:
-   - **Technical Depth**: Correctness and detail of the explanation.
-   - **Architecture**: Understanding of system-wide implications.
-   - **Logic & Problem Solving**: The approach to complex scenarios.
-   - **Communication**: Clarity and professional delivery.
-
-**Deterministic Logic**: All AI calls use `temperature: 0` to ensure that the same answer always receives the same score, maintaining 100% fairness for all candidates.
-
----
-
-## 💻 Local Setup Instructions
-
-1. **Clone & Install**:
-   ```bash
-   git clone https://github.com/mokshagnakakumanu/SOUL_AI_Hackathon.git
-   cd SOUL_AI_Hackathon/agent
-   npm install
-   ```
-2. **Configure Environment**:
-   Create `.env` in the `agent/` folder:
-   ```env
-   GEMINI_API_KEY=your_key_here
-   ```
-   *(Note: A public key is currently provided in the repo for judge's convenience).*
-
-3. **Run**:
-   ```bash
-   npm run dev
-   ```
-   Visit [http://localhost:3000](http://localhost:3000).
+SkillSync uses a **Weighted Hybrid Scoring Model** (10% ATS / 90% Interview) and deterministic `temperature: 0` logic to ensure 100% fairness and merit-based results.
 
 ---
 
