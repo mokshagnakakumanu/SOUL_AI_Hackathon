@@ -26,7 +26,7 @@ To run this project immediately, follow these simple steps:
     touch .env
     ```
 3.  **Add the API Key**:
-    Paste the following line into your `.env` file (Use the API Key provided in the **Submission Form**):
+    Paste the following line into your `.env` file (Go to Google AI Studio and generate an API Key and paste it in the .env file):
     ```env
     GEMINI_API_KEY=PASTE_KEY_HERE
     ```
