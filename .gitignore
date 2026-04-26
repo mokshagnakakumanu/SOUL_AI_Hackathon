@@ -23,8 +23,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
-# .env*.local (Removed to allow public key for judges)
-# .env (Removed to allow public key for judges)
+.env*.local
+.env
 
 # vercel
 .vercel
