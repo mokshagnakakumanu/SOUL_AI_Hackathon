@@ -1,0 +1,27 @@
+**Name**: Alex Carter
+**Role**: Frontend Web Developer
+
+**Summary**:
+Passionate frontend developer with 4 years of experience building responsive web applications. I specialize in React and have a strong eye for design. Always eager to learn new technologies and improve my coding skills.
+
+**Experience**:
+
+*Frontend Developer* | WebSolutions Inc. (2021 - Present)
+- Developed and maintained multiple client websites using React.js.
+- Implemented responsive designs using Bootstrap and basic CSS.
+- Worked with backend developers to integrate REST APIs for user authentication and data fetching.
+- Improved page load times by optimizing images and minifying code.
+
+*Junior Web Developer* | Creative Agency (2019 - 2021)
+- Built landing pages using HTML, CSS, and jQuery.
+- Assisted in the migration of legacy sites to WordPress.
+- Conducted basic cross-browser testing.
+
+**Skills**:
+- **Languages**: HTML, CSS, JavaScript
+- **Frameworks/Libraries**: React.js, jQuery, Bootstrap
+- **Tools**: Git, VS Code, NPM
+- **Other**: REST APIs, Basic UI/UX Design
+
+**Education**:
+B.S. in Computer Science | State University (2019)

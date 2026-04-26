@@ -1,0 +1,23 @@
+**Job Title**: Senior React Developer
+**Location**: Remote
+
+**About the Role**:
+We are looking for a Senior Frontend Developer to lead the development of our modern web applications. You will work closely with the design and backend teams to build high-performance, responsive, and visually stunning user interfaces.
+
+**Key Responsibilities**:
+- Architect and develop scalable frontend web applications using React.js and Next.js.
+- Implement complex state management using Redux or Zustand.
+- Build pixel-perfect, responsive UIs from Figma designs using Vanilla CSS or CSS Modules.
+- Optimize application performance for maximum speed and scalability.
+- Write clean, maintainable, and well-tested code (Jest, React Testing Library).
+- Mentor junior developers and participate in code reviews.
+
+**Required Skills**:
+- 5+ years of experience in frontend development.
+- Deep expertise in JavaScript (ES6+), HTML5, and CSS3.
+- Extensive experience with React.js and its core principles (Hooks, Context API).
+- Experience with Next.js (App Router preferred) and server-side rendering.
+- Strong understanding of state management libraries (Redux, Zustand).
+- Experience with RESTful APIs and GraphQL.
+- Familiarity with modern build pipelines and tools (Vite, Webpack).
+- Solid understanding of web accessibility (WCAG) and SEO principles.
